@@ -1,0 +1,315 @@
+body {
+  overflow-x: hidden;
+  background-color: #d7d0d3;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+
+main {
+  padding: 0 200px;
+
+}
+
+#inicio {
+  background: rgb(204, 204, 204);
+  background: linear-gradient(90deg, rgba(204, 204, 204, 0.7483368347338936) 47%, rgba(159, 206, 215, 1) 79%, rgba(142, 211, 204, 1) 100%);
+}
+
+.lista {
+
+  display: flex;
+  justify-content: end;
+  margin: 0 182px 0 0;
+
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+  unicode-bidi: isolate;
+  list-style: none;
+  margin-right: 21px;
+
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  color: #452205;
+}
+
+h1 {
+  font-size: 49px;
+  font-family: 'Playfair';
+
+}
+
+h2 {
+  font-family: 'Poppins';
+  text-align: center;
+}
+
+/* PRODUCTOS */
+.contenedor-productos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  background: #dddde3;
+}
+
+.contenedor-productos>div {
+  flex: 1 1 calc(33.33% - 20px);
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.contenedor-productos img {
+  width: 100%;
+  height: auto;
+}
+
+element.style {
+  padding-bottom: 146px;
+}
+
+/* RESEÑAS*/
+.contenedor-reseñas {
+  display: grid;
+  padding: 94px 0;
+
+  background: linear-gradient(90deg, rgba(204, 204, 204, 0.7483368347338936) 47%, rgba(159, 206, 215, 1) 79%, rgba(142, 211, 204, 1) 100%);
+}
+
+#reseñas {
+  text-align: center;
+  color: #080707;
+  font-size: 24px;
+}
+
+.contenedor-reseña {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reseña {
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'Playfair';
+
+}
+
+.contenedor-reseñas {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+}
+
+
+/* CONTACTO */
+element.style {
+  padding-top: 140px;
+}
+
+.contacto {
+  text-align: center;
+  background: #dddde3;
+  padding-bottom: 70px;
+  border: #e0cda3 solid 2px;
+}
+
+.contacto form {
+  margin-top: 25px;
+
+}
+
+input[type="text"] {
+  width: 64%;
+  border: 0;
+
+  padding: 15px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border: #737171 solid 2px;
+}
+
+::placeholder {
+  color: #080707;
+}
+
+::-ms-input-placeholder {
+  color: #cdcdcd;
+
+}
+
+input[type="submit"] {
+  display: block;
+  width: 80px;
+  margin: auto;
+  border: 0;
+  background: #c29d63;
+  color: #fff;
+  padding: 6px 0;
+  font-size: 16px;
+  margin: left;
+}
+
+
+.contacto .derecha {
+  padding: 99px 0px;
+  width: 40%;
+}
+
+textarea {
+  background: #fff;
+  border: #000 solid 2px;
+}
+
+/*FOOTER*/
+footer {
+  background: #16161600;
+  color: #452205;
+  padding: 0 293px;
+  font-weight: 700;
+}
+
+footer .contenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1050px;
+}
+
+footer .copy {
+  font-size: 14px;
+  font-family: 'Playfair';
+
+}
+
+footer .redes li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+footer .redes i {
+  font-size: 27px;
+}
+
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+
+  body {
+    overflow-x: hidden;
+    background-color: #d7d0d3;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* Activa el efecto parallax */
+  }
+
+  main {
+    padding: 0 200px;
+  }
+
+  main {
+    padding: 0 20px;
+  }
+
+  .lista {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    flex-direction: column;
+  }
+
+  li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  .contenedor-productos {
+    display: block;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .contenedor-productos>div {
+    flex: 1 1 100%;
+    padding: 5px;
+  }
+
+  .contenedor-reseña {
+    padding: 50px 0;
+  }
+
+  .contenedor-reseñas {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    flex-direction: column;
+  }
+
+  .contacto {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .contacto form {
+    margin-top: 15px;
+  }
+
+  input[type="text"],
+  textarea {
+    width: 90%;
+    font-size: 14px;
+  }
+
+  input[type="submit"] {
+    width: 100px;
+    font-size: 14px;
+  }
+
+  .contacto .derecha {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .element.style {
+    display: inline-flex;
+  }
+
+  /* FOOTER */
+  footer {
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  footer .contenedor {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer .copy {
+    font-size: 12px;
+  }
+ 
+}
