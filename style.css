@@ -210,7 +210,6 @@ footer .redes i {
 
 /* RESPONSIVE */
 @media (max-width: 768px) {
-
   body {
     overflow-x: hidden;
     background-color: #d7d0d3;
@@ -298,7 +297,9 @@ footer .redes i {
   .element.style {
     display: inline-flex;
   }
-
+.logo{
+  width: 50%;
+}
   /* FOOTER */
   footer {
     padding: 0 20px;
